@@ -15,12 +15,12 @@
         function validacao(){
             var pais = document.querySelector('input#txtnac')
             var res = document.querySelector('div#res')
-            var nac = String(pais.value)
+            var nac = pais.value
             res.innerHTML = `<p>Seu país de origem é ${nac}.</p>`
             if(nac == 'Brasil' || nac == 'brasil') {
-                res.innerHTML = `<p>Você é <strong>Brasileiro.</strong></p>`
+                res.innerHTML += `<p>Você é <strong>Brasileiro.</strong></p>`
             }else {
-                res.innerHTML = `<p>Você é <strong>Estrangeiro.</strong></p>`
+                res.innerHTML += `<p>Você é <strong>Estrangeiro.</strong></p>`
             }
         }
         
