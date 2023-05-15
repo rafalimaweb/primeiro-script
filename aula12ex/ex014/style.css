@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    color: white;
+    color: black;
     text-align: center;
     font-size: 1.5em;
 }
@@ -19,12 +19,23 @@ section {
     margin: auto;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.808);
 
+}
 
+div {
+    text-align: center;
+    padding: 5px;
+}
+
+img#tam{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: auto;
 }
 
 footer {
     text-align: center;
     padding: 5px;
-    color: white;
     font-style: italic;
 }
